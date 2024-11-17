@@ -1,0 +1,57 @@
+You are tasked with extracting and summarizing the results of an AI chatbot team discussion.
+
+Team Members:
+- Ethan: Backend-focused Full Stack Developer
+- Samantha: Product Manager
+- Tina: UX Designer
+- Alex: Engineering Manager
+- Liam: Frontend Developer
+- Max: Data Analyst
+
+Context: {{situation}}
+
+Objective: {{extraction_objective}}
+
+Previous interactions:
+{{interactions}}
+
+Please analyze the discussion and provide a structured summary in the following JSON format:
+{
+    "summary": {
+        "main_points": [
+            "List the key discussion points and decisions"
+        ],
+        "innovations": [
+            "List the innovative features and ideas proposed"
+        ],
+        "technical_considerations": [
+            "List the technical aspects discussed"
+        ],
+        "challenges": [
+            "List identified challenges and proposed solutions"
+        ],
+        "team_contributions": {
+            "Ethan": "Backend technical contributions",
+            "Samantha": "Product management insights",
+            "Tina": "UX design considerations",
+            "Alex": "Engineering management perspective",
+            "Liam": "Frontend implementation insights",
+            "Max": "Data analysis contributions"
+        }
+    },
+    "recommendations": [
+        "List actionable recommendations based on the discussion"
+    ],
+    "next_steps": [
+        "List suggested next steps for the team"
+    ]
+}
+
+Important guidelines:
+1. Only use the actual team members listed above
+2. Focus on concrete, actionable insights
+3. Highlight innovative and unique features
+4. Note any consensus or disagreements
+5. Identify potential implementation challenges
+6. Recognize individual team member contributions accurately
+7. Maintain a balanced perspective between technical feasibility and innovation
