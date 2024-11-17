@@ -1,0 +1,119 @@
+# Python 虛擬環境
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Python 快取文件
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.pytest_cache/
+
+# Distribution / packaging
+dist/
+build/
+eggs/
+*.egg-info/
+*.egg
+
+# IDE 配置文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.settings/
+.project
+.classpath
+.vs/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 本地配置文件
+config.ini
+*.conf
+*.cfg
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日誌文件
+*.log
+logs/
+log/
+
+# 數據庫文件
+*.sqlite
+*.db
+*.sqlite3
+
+# 系統文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node.js (如果專案包含前端)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# 暫存文件
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# 編譯輸出
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# 壓縮文件
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# 多媒體文件
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# 敏感資訊和金鑰
+*.pem
+*.key
+*.keystore
+*.p12
+secrets/
+
+# 覆蓋率報告
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
