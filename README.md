@@ -6,7 +6,7 @@ Agent 是一個自動化代理系統，旨在優化多種任務的自動化流�
 ## 共讀目的
 邀請不超過6位技術核心成員，通過集體學習和討論，深入理解 LLM agent 和多模態模型的設計原理和核心功能，提升在 AI 和自動化系統開發方面的技能。除了研讀相關論文，還將進行實作以鞏固所學。
 
-
+![system structure](https://github.com/DeepStudio-TW/agent-study/blob/main/images/agent-overview.png)
 ## 共讀計劃
 1. **專案概覽與環境設置**
    - 閱讀 README 和官方文檔
