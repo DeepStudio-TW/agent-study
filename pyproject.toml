@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "agent-study"
+version = "0.1.0"
+description = ""
+authors = ["Sean Shih-Huan Lin <sean.lin040@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.55.0"
+langchain = "^0.3.7"
+langchain-core = "^0.3.19"
+llama-index = "^0.12.0"
+langgraph = "^0.2.52"
+llama-index-embeddings-huggingface = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
