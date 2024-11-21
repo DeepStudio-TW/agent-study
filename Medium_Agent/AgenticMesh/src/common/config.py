@@ -1,6 +1,7 @@
 # src/common/config.py
 from pydantic_settings import BaseSettings
 from functools import lru_cache
+from typing import Optional
 
 class Settings(BaseSettings):
     """應用程式設定"""
@@ -9,8 +10,8 @@ class Settings(BaseSettings):
     DEBUG: bool = False
     
     # LLM設定
-    OPENAI_API_KEY: str
-    ANTHROPIC_API_KEY: str
+    OPENAI_API_KEY: Optional[str] = None
+    ANTHROPIC_API_KEY: Optional[str] = None
     DEFAULT_LLM_PROVIDER: str = "anthropic"  # 或 "openai"
     
     # LLM模型設定
@@ -28,6 +29,8 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
         env_file_encoding = 'utf-8'
+        # 允許從額外的環境變量加載
+        extra = "ignore"
 
 @lru_cache()
 def get_settings():
